@@ -16,6 +16,7 @@
 		E727E7482230BA19006E51B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E727E7472230BA19006E51B0 /* main.m */; };
 		E727E7522230BA19006E51B0 /* RunLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E727E7512230BA19006E51B0 /* RunLoopTests.m */; };
 		E727E75D2230BA19006E51B0 /* RunLoopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E727E75C2230BA19006E51B0 /* RunLoopUITests.m */; };
+		E7715F3D224CA32B0058B40F /* ZXThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E7715F3C224CA32B0058B40F /* ZXThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E727E7582230BA19006E51B0 /* RunLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E727E75C2230BA19006E51B0 /* RunLoopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopUITests.m; sourceTree = "<group>"; };
 		E727E75E2230BA19006E51B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7715F3B224CA32B0058B40F /* ZXThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXThread.h; sourceTree = "<group>"; };
+		E7715F3C224CA32B0058B40F /* ZXThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				E727E7362230BA18006E51B0 /* AppDelegate.m */,
 				E727E7382230BA18006E51B0 /* ViewController.h */,
 				E727E7392230BA18006E51B0 /* ViewController.m */,
+				E7715F3B224CA32B0058B40F /* ZXThread.h */,
+				E7715F3C224CA32B0058B40F /* ZXThread.m */,
 				E727E73B2230BA18006E51B0 /* Main.storyboard */,
 				E727E7412230BA19006E51B0 /* Assets.xcassets */,
 				E727E7432230BA19006E51B0 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7715F3D224CA32B0058B40F /* ZXThread.m in Sources */,
 				E727E7402230BA18006E51B0 /* RunLoop.xcdatamodeld in Sources */,
 				E727E73A2230BA18006E51B0 /* ViewController.m in Sources */,
 				E727E7482230BA19006E51B0 /* main.m in Sources */,
